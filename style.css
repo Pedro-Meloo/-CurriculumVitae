@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/*  Seletor por ID */
+#contact-info {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#personal-info {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/*  Seletor por classe */
+.img-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hobbies-list {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.hobbies-list li {
+    margin-bottom: 8px;
+}
+
+/* Seletor por atributo */
+a[href^="https"] {
+    color: #2980b9; 
+}
+
+a[href$=".edu.br"] {
+    color: #27ae60;
+}
+
+a[href*="linkedin"] {
+    color: #9b59b6; 
+}
+
+/* Pseudo-classe */
+a:hover {
+    text-decoration: underline;
+}
+
+
+ul li:nth-child(odd) {
+    background-color: #f9f9f9; 
+}
+
+ul li:nth-child(even) {
+    background-color: #ffffff; 
+}
+
+/* Seletor por pseudo-classe */
+section:hover {
+    background-color: #bdc3c7; 
+}
