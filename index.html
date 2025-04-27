@@ -4,92 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo - Pedro Henrique Silva Melo</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #1d7c6934;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #ffffff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            text-align: center;
-            color: #2c3e50;
-            font-family: 'Playfair Display', serif; /* Fonte externa para o título */
-            font-weight: 700; /* Negrito */
-        }
-
-        h2 {
-            color: #34495e;
-        }
-
-        img {
-            border-radius: 50%;
-            display: block;
-            margin: 0 auto;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-        }
-
-        a {
-            color: #2980b9;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-            color: #e74c3c; /* Cor ao passar o mouse sobre o link */
-        }
-
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        .bold {
-            font-weight: bold;
-        }
-
-        .italic {
-            font-style: italic;
-        }
-
-        section {
-            background-color: #8ba7af;
-            padding: 15px;
-            margin-top: 20px;
-            border-radius: 5px;
-        }
-
-        section h2 {
-            margin-top: 0;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 30px;
-            color: #000000;
-        }
-
-        footer li {
-            list-style-type: none;
-            margin-bottom: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -97,44 +12,74 @@
 
     <h1>Pedro Henrique Silva Melo</h1>
     
-    <figure>  
+    <figure class="img-container">  
         <img src="figs/me.jpg" alt="Pedro Henrique Silva Melo" /> 
     </figure> 
 
-    <ul>
-        <li>E-mail: <a href="mailto:p.melo2024@utfpr.edu.br">p.melo2024@utfpr.edu.br</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/pedro-henrique-silva-melo-9892742b9/">https://www.linkedin.com/in/pedro-henrique-silva-melo-9892742b9/</a></li>
-        <li>Andirá, Paraná</li>
-    </ul>
+    <section id="contact-info">
+        <ul>
+            <li>E-mail: <a href="mailto:pedro.melo11@icloud.com">pedro.melo11@icloud.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/pedro-henrique-silva-melo-9892742b9/">LinkedIn Pedro Melo</a></li>
+            <li>Localização: Andirá, Paraná</li>
+        </ul>
+    </section>
 
-    <h2>Resumo</h2>
-    <p>Graduando em Análise e Desenvolvimento de Sistemas na Universidade Tecnológica Federal do Paraná (UTFPR). Cursado em design gráfico pela Alura.</p>
+    <section id="personal-info">
+        <h2>Resumo</h2>
+        <p>Profissional eficiente, dedicado e com excelente capacidade de adaptação e relacionamento interpessoal. Capaz de apoiar equipes de trabalho em diferentes funções e colaborar efetivamente na rotina organizacional, sempre prestando um serviço de excelência. Possui ótima comunicação verbal e escrita, facilitando a interação com colegas, gestores e clientes.
+        <br>Com alta disposição para o aprendizado, raciocínio lógico apurado e habilidades em resolução de problemas, demonstra proatividade e foco no aprimoramento técnico e pessoal. Apaixonado por tecnologia, inovação e programação, busca constantemente evoluir, contribuindo positivamente para o crescimento da empresa e para o sucesso dos projetos em que está envolvido.
+        <br>Tem facilidade em lidar com novos desafios, sendo resiliente, comprometido e capaz de atuar sob pressão. Está preparado para assumir diferentes funções e busca sempre entregar resultados acima das expectativas.</p>
+    </section>
 
-    <h2>Habilidades</h2>
-    <ul>
-        <li><span class="bold">Programação em C</span></li>
-        <li>Experiência com crianças neurodivertes</li>
-        <li><span class="italic">Design gráfico</span> pela Alura</li>
-    </ul>
+    <section>
+        <h2>Habilidades e Competências</h2>
+        <ul class="habilities-list">
+            <li>Capacidade de aprendizado rápido</li>
+            <li>Bom relacionamento com o público</li>
+            <li>Excelente comunicação verbal e escrita</li>
+            <li>Bom relacionamento interpessoal para facilitar o trabalho em equipe</li>
+            <li>Comprometimento com as tarefas designadas</li>
+            <li>Iniciativa na busca por aprendizado e crescimento</li>
+            <li>Comprometimento em realizar um trabalho de qualidade</li>
+            <li>Adaptabilidade a novas tarefas e ambientes</li>
+            <li>Trabalho em equipe eficaz e colaborativo</li>
+            <li>Excelente capacidade de resolução de problemas</li>
+            <li>Proatividade para assumir diferentes desafios</li>
+            <li>Programação em Python 3</li>
+            <li>Conhecimentos básicos em HTML, CSS e lógica de programação</li>
+            <li>Experiência em operação de máquinas seccionadoras</li>
+            <li>Habilidade em atendimento e apoio a crianças neurodivergentes</li>
+            <li>Resiliência e capacidade de lidar com pressão</li>
+            <li>Criatividade para propor soluções e inovações</li>
+            <li>Facilidade para trabalhar com novas tecnologias e softwares</li>
+            <li>Habilidade de organização e gestão do tempo</li>
+            <li>Forte foco em desenvolvimento pessoal e profissional</li>
+        </ul>
+    </section>
 
-    <h2>Educação</h2>
-    <ul>
-        <li><span class="bold">Graduando em Análise e Desenvolvimento de Sistemas</span></li>
-        <li>UTFPR-CP 2024 - 2027</li> 
-    </ul>
+    <section>
+        <h2>Educação</h2>
+        <ul>
+            <li><span class="bold">Graduando em Análise e Desenvolvimento de Sistemas</span></li>
+            <li>UTFPR - Campus Cornélio Procópio - 2024 a 2027</li> 
+            <li><span class="bold">Curso Técnico</span><br>SENAI - Santo Antônio da Platina, PR</li>
+        </ul>
+        </ul>
+    </section>
 
     <section>
         <h2>Hobbies</h2>
-        <ul> 
-            <li><span class="italic">Música</span></li>  
-            <li>Jogos</li>       
-            <li>Leitura</li>
+        <ul class="hobbies-list"> 
+            <li>Música</li>  
+            <li>Jogos eletrônicos</li>       
+            <li>Leitura de livros e artigos técnicos</li>
+            <li>Pesquisa sobre inovações em tecnologia</li>
         </ul>
     </section>
 
     <footer>
         <ul>
-            <li>CV - Pedro Melo - 2024</li>
+            <li>Currículo - Pedro Henrique Silva Melo - 2024</li>
         </ul>
     </footer>
 
